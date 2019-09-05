@@ -1,0 +1,97 @@
+
+body{
+    width:880px;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+header{
+	width: 100%;
+	display: flex;
+}
+header nav {
+  width: 691px;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+
+/* banner */
+.services-header-img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* services styles */
+.services{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    
+}
+.services div{
+   width: 40%;
+   background:#d3d3d3;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 10px;
+   border: 1px solid black;
+}
+.services div button{
+ margin-bottom: 5px;
+ margin-left: 5px;
+ border-radius: 10%;
+}
+
+
+/* facts styles */
+.about{
+    display: flex;
+    
+}
+.services-info-img{
+    width: 40%;
+    margin-top: 20px;
+}
+.about .facts p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.facts h3{
+    margin-left: 20px;
+}
+/* footer styles */
+footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+body{
+    width: 880px;
+}
